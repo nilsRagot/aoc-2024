@@ -31,4 +31,4 @@ export const solve2a = () => {
   return numberOfSafeReports;
 };
 
-console.log(solve2a());
+// console.log(solve2a());

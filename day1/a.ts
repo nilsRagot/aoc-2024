@@ -11,4 +11,4 @@ export const resolvePuzzle1a = () => {
   return sum;
 };
 
-console.log(resolvePuzzle1a());
+// console.log(resolvePuzzle1a());

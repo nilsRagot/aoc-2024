@@ -27,4 +27,4 @@ export const solve2b = () => {
   };
 };
 
-console.log(solve2b());
+// console.log(solve2b());

@@ -15,4 +15,4 @@ export const resolvePuzzle1b = () => {
   return similarityScore;
 };
 
-console.log(resolvePuzzle1b());
+// console.log(resolvePuzzle1b());

@@ -8,4 +8,4 @@ export const solve3a = () => {
   }, 0);
 };
 
-console.log(solve3a());
+// console.log(solve3a());

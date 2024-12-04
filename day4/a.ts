@@ -1,5 +1,5 @@
 import { readInput } from "./utils.ts";
-type Direction =
+export type Direction =
   | "top"
   | "right"
   | "bottom"
@@ -96,7 +96,7 @@ const getOperations = (
   }
 };
 
-const verifyMatch = ({
+export const verifyMatch = ({
   direction,
   matrix,
   word,
@@ -164,4 +164,4 @@ export const solve4a = () => {
   return totalMatches;
 };
 
-console.log(solve4a());
+// console.log(solve4a());
