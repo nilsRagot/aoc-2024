@@ -1,6 +1,6 @@
-import { solve5a } from "./day5/a.ts";
+import { solve5b } from "./day5/b.ts";
 
 // Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
 if (import.meta.main) {
-  console.log(solve5a());
+  console.log(solve5b());
 }

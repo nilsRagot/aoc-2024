@@ -18,4 +18,4 @@ export const solve3b = () => {
   return sum;
 };
 
-console.log(solve3b());
+// console.log(solve3b())

@@ -7,7 +7,7 @@ export const isUpdateWellOrdered = ({
   update: number[];
   rules: number[][];
 }) => {
-  console.log(update);
+  // console.log(update);
   for (let i = 0; i < update.length; i++) {
     const number = update[i];
     // A number is well positioned in the update if :
@@ -25,15 +25,15 @@ export const isUpdateWellOrdered = ({
         update.includes(filteredRule[0]) &&
         !update.slice(0, i).includes(filteredRule[0])
       ) {
-        console.log("breaking", {
-          number,
-          filteredRule,
-        });
+        // console.log("breaking", {
+        //   number,
+        //   filteredRule,
+        // });
         return false;
       }
     }
   }
-  console.log("✅");
+  // console.log("✅");
   return true;
 };
 export const solve5a = () => {
