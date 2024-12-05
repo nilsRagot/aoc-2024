@@ -18,9 +18,9 @@ export const isUpdateWellOrdered = ({
       (rule) => rule[1] === number
     );
     for (const filteredRule of filteredRules) {
-      //If the number supposed to precede the number (filteredRule indicates that) is not found before in the update,
-      //that means the update is not well ordered
-
+      // Let's suppose rule A | number
+      // If A is in the update and is not placed before number, that means that number is breaking the rule A | number,
+      // therefore the update is invalid
       if (
         update.includes(filteredRule[0]) &&
         !update.slice(0, i).includes(filteredRule[0])
